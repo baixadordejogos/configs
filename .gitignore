@@ -155,7 +155,6 @@ composer.lock
 .env
 .env.local
 .env.*.local
-config.json
 secrets.json
 *.pem
 *.key
@@ -178,6 +177,8 @@ target/
 node_modules/
 vendor/
 packages/
+packages-lock.json
+packages.json
 
 # OS generated files
 .DS_Store
@@ -201,3 +202,4 @@ Thumbs.db
 # Outros
 *.orig
 .sass-cache/
+.gitignore
